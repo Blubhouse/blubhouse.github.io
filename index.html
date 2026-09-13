@@ -14,13 +14,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blubhouse's Github Website</title>
+    <title>Blubhouse's Coding Website</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <style>
     /* body */
     body {
-        background-color: white;
+        background-color: cyan;
         font-family: courier;
         overflow-x: hidden;
     }
@@ -33,64 +33,81 @@
     }
     #title {
         font-size: 2.5vw;
+        color: magenta;
+        font-weight: bold;
         transform: translate(30%, 10%);
+    }
+    #beamngplanes {
+        text-align: center;
+        font-size: 1.15rem;
+        transform: translate(0vw, 15vh);
+    }
+    #about {
+        text-align: center;
+        font-size: 1.15rem;
+        transform: translate(0vw, 10vh);
+    }
+    #docs {
+        text-align: center;
+        font-size: 1.15rem;
+        transform: translate(0vw, 20vh);
     }
     /* general properties */
     div:not(title) {
         font-size: 1vw;
     }
-    a:not(beamprofile) {
-        left: 0;
-    }
 </style>
 <body>
-    <div id="title">Blubhouse's Github Website</div>
-    <div id="titleDesc" style="transform: translate(37vw, 5vh);">
+    <div id="title">Blubhouse's Coding Website</div>
+    <div id="titleDesc" style="transform: translate(33vw, 3vh); font-weight: bold; font-size: 1.5rem;">
         Schools are teaching a simplified Python,
         <br>
         learn 5 languages and mod BeamNG instead:
         <br>
-        <a id="beamprofile" href="https://www.beamng.com/members/blubhouse1212123.756564/">Blubhouse's official BeamNG forums profile</a>
+        <a id="beamprofile" href="https://www.beamng.com/members/blubhouse1212123.756564/">Check out my BeamNG Forums profile here!</a>
     </div>
-    <div id="websiteDesc" style="transform: translateY(9vh)">
-        Why I wrote this website:
-        <br>
-        I wanted a place to put all of my projects that felt like my own,
-        <br>
-        so I used my coding skills to write this website as a home base.
-        <br>
-    </div>
-    <div id="aboutMe" style="transform: translateY(12vh)">
+    <div id="about">
         About Me:
         <br>
-        I am a hobbyist programmer and student pilot. I know 5 coding
+        I am a hobbyist programmer and a student pilot. I know 5 programming languages
         <br>
-        languages, and I am a full stack web developer (I wrote a backend)
+        and I mostly make aircraft mods for BeamNG drive. However, I am also a Javascript
         <br>
-        I also develop aircraft mods for BeamNG, a soft body physics simulator,
+        web developer with experience in Node and Express.
         <br>
-        you can download them below.
+        -----------------------------------------------------------------------
     </div>
-    <div id="beamngmods" style="transform: translateY(15vh);">
-        My BeamNG mods:
+    <div id="beamngplanes">
+        My BeamNG Airplanes:
         <br>
-        <a href="https://www.beamng.com/threads/mcdonnell-douglas-f-4-phantom-ii.111221/">WIP - F4 Phantom II</a>
+        <a href="https://www.beamng.com/threads/mcdonnell-douglas-f-4-phantom-ii.111221/" style="margin: auto;">WIP - F4 Phantom II</a>
         <br>
-        <a href="https://www.beamng.com/threads/sud-se-210-caravelle-large-update-v1-0-3.110118/">RELEASED - Sud SE-210 Caravelle</a>
         <br>
-        <a href="https://www.beamng.com/threads/fixed-jetpack.110207/">EXPERIMENTAL - Fixed Jetpack</a>       
+        <a href="https://www.beamng.com/threads/sud-se-210-caravelle-large-update-v1-0-3.110118/" style="margin: auto;">RELEASED - Sud SE210 Caravelle</a>
+        <br>
+        <br>
+        <a href="https://www.beamng.com/threads/fixed-jetpack.110207/" style="margin: auto;">EXPERIMENTAL - Fixed Jetpack Mod</a>
     </div>
-    <div id="contact" style="transform: translateY(18vh);">
-        Contact Me:
+    <div id="docs">
+        Documentation:
         <br>
-        <a href="https://discord.com/channels/@me/">Discord | DM Blubhouse1212123</a>
+        <a href="https://nodejs.org/api/documentation.html" style="margin: auto;">NodeJS Docs</a>
         <br>
-        <a href="https://www.beamng.com/conversations/add?to=Blubhouse1212123">BeamNG | Message Blubhouse1212123</a>
+        <br>
+        <a href="https://expressjs.com/en/api/" style="margin: auto;">ExpressJS Docs</a>
+        <br>
+        <br>
+        <a href="https://cheerio.js.org/docs/intro/" style="margin: auto;">Cheerio Docs</a>
+        <br>
+        <br>
+        <a href="https://docs.beamng.com/modding/" style="margin: auto;">BeamNG Modding Docs</a>
     </div>
     <footer id="foot">
-        BeamNG.drive is a trademark probably owned by GmbH
+        * BeamNG.drive/BeamNG/BeamNG.tech is a trademark owned by GmbH
         <br>
-        Python is a trademark owned by the Python Software Foundation
+        * Python is a trademark owned by the Python Software Foundation
+        <br>
+        * GitHub is a trademark probably owned by Linus Torvalds
     </footer>
 </body>
 </html>
